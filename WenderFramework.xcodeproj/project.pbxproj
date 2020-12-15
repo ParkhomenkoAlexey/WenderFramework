@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		EEF801232588D1F9005FD7EE /* WenderFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF801212588D1F9005FD7EE /* WenderFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF8012B2588D693005FD7EE /* FirstFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF8012A2588D693005FD7EE /* FirstFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEF8011E2588D1F9005FD7EE /* WenderFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WenderFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF801212588D1F9005FD7EE /* WenderFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WenderFramework.h; sourceTree = "<group>"; };
 		EEF801222588D1F9005FD7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF8012A2588D693005FD7EE /* FirstFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				EEF801212588D1F9005FD7EE /* WenderFramework.h */,
+				EEF8012A2588D693005FD7EE /* FirstFile.swift */,
 				EEF801222588D1F9005FD7EE /* Info.plist */,
 			);
 			path = WenderFramework;
@@ -94,6 +97,7 @@
 				TargetAttributes = {
 					EEF8011D2588D1F9005FD7EE = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -130,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF8012B2588D693005FD7EE /* FirstFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		EEF801272588D1F9005FD7EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TSZQ4D456H;
@@ -277,6 +283,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexeyParkhomenko.WenderFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -285,6 +292,7 @@
 		EEF801282588D1F9005FD7EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TSZQ4D456H;
