@@ -7,3 +7,10 @@
 
 import Foundation
 
+public class FirstFile {
+    public init(){}
+    
+    public func hello() {
+        print(#function)
+    }
+}
